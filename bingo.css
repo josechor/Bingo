@@ -1,0 +1,91 @@
+ /* Estilo body */
+ body{
+    text-align: center;
+    background-color: antiquewhite;
+}
+/* Estilo de la tabla */
+table {
+    position: relative;
+    margin: 10px auto;
+    background-color:bisque;
+}
+
+
+.flex-container{
+    border: 1px solid black;
+    background-color: bisque;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 75%;
+    min-width: 200px;
+}
+
+#cartones{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    width: 97%;
+    margin-top: 30px;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: center;
+
+}
+#crearTablerosBoton{
+    width: 120px;
+}
+
+#tableros{
+    position: relative;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-content:space-between;
+    width: 95%;
+    
+}
+/* Div que contiene el texto de la celda */
+.celda{
+    padding: 10px;
+}
+
+
+
+
+
+/* Boton que muestra los numeros de la bola */
+#mostrarNumerosBingo{
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* Div que hace la forma de la bola */
+
+#bolaBingo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-color: black;
+    border-radius: 100%;
+    
+
+}
+
+/* Texto que muestra el numero de la bola del bingo */
+
+#bolaBingoTexto {
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+    line-height: 100px;
+    
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
